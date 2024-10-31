@@ -40,7 +40,7 @@ public class ArrayRataNilai23 {
         System.out.println("Rata-Rata Nilai = " + rata2);
         System.out.println("Rata-rata nilai lulus = " + rataRataLulus);
         System.out.println("Rata-rata nilai tidak lulus = " + rataRataTidakLulus);
-        System.out.println("Jumlah Mahasiswa Lulus: " + jumlahLulus);
+        System.out.println("Jumlah Mahasiswa Yang Lulus: " + jumlahLulus);
         
         
     }
