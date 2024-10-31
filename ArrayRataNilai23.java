@@ -17,7 +17,6 @@ public class ArrayRataNilai23 {
         double totalTidakLulus = 0;
         double rata2;
 
-       
         for (int i = 0; i < jumlahMahasiswa; i++) {
             System.out.print("Masukkan Nilai Mahasiswa Ke-" + (i + 1) + " : ");
             nilaiMhs[i] = sc.nextInt();
@@ -35,12 +34,9 @@ public class ArrayRataNilai23 {
         }
 
         rata2 = total / jumlahMahasiswa;
-
-        
         double rataRataLulus = (jumlahLulus > 0) ? totalLulus / jumlahLulus : 0;
         double rataRataTidakLulus = (jumlahTidakLulus > 0) ? totalTidakLulus / jumlahTidakLulus : 0;
 
-        
         System.out.println("Rata-Rata Nilai = " + rata2);
         System.out.println("Rata-rata nilai lulus = " + rataRataLulus);
         System.out.println("Rata-rata nilai tidak lulus = " + rataRataTidakLulus);
